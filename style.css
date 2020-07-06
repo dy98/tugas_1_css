@@ -1,0 +1,26 @@
+body {
+    background-color: bisque;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: #e0e0e0;
+    }
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+    padding-right: 5px;
+    float: left;
+}
+
+p {
+    font: 18px/1.5em sans;
+    color: slateblue;
+}
+
+p .tebal {
+    font-weight: bold;
+}
